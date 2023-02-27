@@ -1,0 +1,239 @@
+body{
+    background-image: url(../images/homepage2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 70% 70%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    opacity: 0.7;
+    font-size: 14pt;
+    width: 30%;   
+    float: left;
+}
+
+#container {
+    color:white;
+    background-color: black;
+    text-align: center;
+    margin: auto auto;
+    opacity: 0.8;
+    font-size: 20pt;
+    width: 95%;
+    padding: 5px;
+    overflow: hidden;
+    height: fit-content;
+}
+
+input[type=submit]{
+    background-color: #EEFE00;
+    border: none;
+    cursor:pointer;
+    border-radius: 30px;
+    width: 20%;
+    height: 40px;
+    display: inline;
+    font-size: 14pt;
+}
+
+input[type=text]{
+    display: inline;
+    height: 40px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+}
+
+table {
+    margin: auto auto;
+    border:none;
+    width: 90%;
+    font-size: 12pt;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: none;
+}
+
+th {
+    font-size: 14pt;
+}
+
+tr {
+    border: 1px solid white;
+}
+
+a[href="logout.php"] {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    opacity: 0.7;
+    font-size: 14pt;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+a[name ="back"] {
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    opacity: 0.7;
+    font-size: 14pt;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 20px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    float: right;
+}
+
+h2 {
+    font-size: 14pt;
+}
+
+input[type="button"]{
+    background-color: #EEFE00;
+    border: none;
+    cursor:pointer;
+    border-radius: 30px;
+    width: 15%;
+    height: 55px;
+    display: inline;
+    font-size: 10pt;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+input[name="phone"]{
+    display: inline;
+    height: 55px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+}
+
+input[name="email"]{
+    display: inline;
+    height: 55px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+}
+
+input[name="password"]{
+    display: inline;
+    height: 55px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+}
+
+input[name="confirm-password"]{
+    display: inline;
+    height: 55px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 14pt;
+    text-align: center;
+}
+
+input[type="radio"]{
+    margin-left: 5px;
+}
+
+input[name="search"]{
+    display: inline;
+    height: 40px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 10pt;
+    text-align: center;
+}
+
+input[name="search_doc"]{
+    display: inline;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.error {
+    color: white;
+    background-color: red;
+}
+
+#success-message {
+    background-color: green;
+    color: white;
+    text-align: center;
+  }
+
+  .success-message {
+    background-color: green;
+    color: white;
+    text-align: center;
+  }
+  
+  select {
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to bottom, #f9f9f9, #817f7f);
+    cursor: pointer;
+}
+
+select option {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+select option:checked {
+    background: #f0f0f0;
+}
+
+select option:hover {
+    background: #e5e5e5;
+}
+
+#form_requestdoc{
+    text-align: left;
+    margin-left: 10px;
+}
